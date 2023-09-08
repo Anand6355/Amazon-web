@@ -102,8 +102,7 @@ document.querySelectorAll('.js-add-to-cart').forEach((button)=>{
 
     //Now updating the list of item in the cart
     updateCart();
-    
-
+  
 
   });
 });
