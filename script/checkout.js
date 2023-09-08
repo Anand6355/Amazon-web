@@ -1,5 +1,5 @@
-const cart = require('../data/cart')
-const products = require('../data/products')
+// import cart from '../data\cart.js';
+// import products from '../data\products.js';
 
 //Iterate in cart to print all item in the cart on cart page
 cart.forEach((cartItem) =>{
