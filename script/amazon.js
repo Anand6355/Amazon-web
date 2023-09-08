@@ -60,25 +60,7 @@ products.forEach((product)=>{
 
 
 
-//Add cart function
-function addToCart(productId){
-    let matchingItem;//to figure out the matching item
-    cart.forEach((item)=>{
-      if(productId===item.productId){
-        matchingItem=item;
-      }
-    });
 
-    if(matchingItem){
-      matchingItem.quantity+=1; // item is already present in the cart, just increase the quantity by 1
-    }
-    else{
-      cart.push({
-        productId: productId,
-        quantity: 1
-      });
-    }
-}
 
 //Updation function
 function updateCart(){
